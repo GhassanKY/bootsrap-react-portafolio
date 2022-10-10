@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "titulo": "Cubo ThreeJS",
+        "imagen": "https://i.ibb.co/yWTdsxj/Cube.png",
+        "links": "https://github.com/GhassanKY/ThreeJS",
+        "about": "Cubo generado con ThreeJS con rotacion 360º"
+    },
+
+    {
+        "id": 2,
+        "titulo": "Orbit Control ThreeJS",
+        "imagen": "https://i.ibb.co/BjmxSt4/Orbit-Control.png",
+        "links": "https://github.com/GhassanKY/ThreeJS",
+        "about": "Cubo con funcionalidad de zoom y moverlo en diferentes direcciones atravez de la pantalla"
+    },
+
+    {
+        "id": 2,
+        "titulo": "Perspective ThreeJS",
+        "imagen": "https://i.ibb.co/KxXVGBG/Perspective.png",
+        "links": "https://github.com/GhassanKY/ThreeJS",
+        "about": "Perspectiva de la camara que renderiza el cubo"
+    }
+
+]
+
+

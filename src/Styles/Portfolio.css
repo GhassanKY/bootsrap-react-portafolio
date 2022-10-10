@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background-color:#0d0c4c;
+}
+
+.ProjectBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Project{
+
+    background-image: url('../img/PortfolioIMG/Project.svg');
+    background-position: center;
+    background-size: 100%;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.Project:hover{
+    filter: brightness(1.1);
+    transition:2s;
+}
+.Project > div > button{
+    width: 193px;
+    height:47px;
+    background-color: rgba(255, 255, 255, 0.442);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.Project > div > button:hover{
+    border-bottom: 3px solid white;
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.Project > div{
+    margin: 10px;
+}
+
+.ThreeDProject{
+    background-image: url('../img/PortfolioIMG/3DProject.svg');
+    background-position: center;
+    background-size: 100%;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.ThreeDProject:hover{
+    filter: brightness(1.1);
+    transition:2s;
+}
+
+.ThreeDProject > div > button{
+    width: 193px;
+    height:47px;
+    background-color: rgba(255, 255, 255, 0.442);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.ThreeDProject > div{
+    margin: 10px;
+}
+
+.ThreeDProject > div > button:hover{
+    border-bottom: 3px solid white;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.atras{
+    color: white;
+    cursor: pointer;
+}
+
+/*Se hacen los divs en los cuales se imprimen los proyectos */
+
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pInfo{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+i{
+    padding: 15px;
+    font-weight: 900;
+    margin-left: 120px;
+}
+
+
+@media only screen and (min-width: 600px){
+    .pInfo{
+        width: 383px
+    }
+}
+
+@media screen and (min-width: 750px) {
+
+    .alignResponsive{
+        display: grid;
+        grid-template-columns: 350px 350px;
+        justify-content: space-evenly;
+        justify-items: center;
+    }
+    .pInfo{
+        width: 383px
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 768px){
+    .ProjectBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .pInfo{
+        width: 383px
+    }
+
+
+}
+
+@media  screen and (min-width: 1000px) {
+
+    .imgProyect{
+        width: 36vw;
+    }
+
+    .alignResponsive{
+        column-gap: 25px;
+    }
+
+    .ThreeDProject{
+        width: 36vw;
+        height: 36vw;
+    }
+    .Project{
+        width: 36vw;
+        height: 36vw;
+    }
+    
+}

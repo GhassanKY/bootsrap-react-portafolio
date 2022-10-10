@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "titulo": "Foro AfroBook",
+        "imagen": "https://i.ibb.co/BtXVKNd/Foro.png",
+        "links": "https://github.com/GhassanKY/foro_Repositorio",
+        "about": "Proyecto creado con PHP nativo, informacion almacenada en base de datos MYSQL"
+    },
+
+    {
+        "id": 2,
+        "titulo": "Lista de la Compra",
+        "imagen": "https://i.ibb.co/hF6GCzK/Compras-Habituales.png",
+        "links": "https://github.com/GhassanKY/Proyecto-ListaDeLaCompra",
+        "about": "Proyecto creado con Javascript nativo, para el almacenamiento de la informacion se hizo uso de localStorage"
+    },
+
+    {
+        "id": 3,
+        "titulo": "Gestor de Fotos",
+        "imagen": "https://i.ibb.co/NK3NzLT/Gestor-Fotos.png",
+        "links": "https://github.com/GhassanKY/gestorDeFotos",
+        "about": "Gestor de fotos desarollado en Laravel, se hace uso de peticiones AJAX y base de datos MYSQL"
+    },
+
+    {
+        "id": 4,
+        "titulo": "Portafolio Laravel",
+        "imagen": "https://i.ibb.co/bdq3xsV/Portafolio-Laravel.png",
+        "links": "https://github.com/GhassanKY/PortafolioWeb",
+        "about": "Proyecto personal creado con Laravel, se implemento Login, Envio de correos y base de datos MYSQL"
+    }
+
+]
+

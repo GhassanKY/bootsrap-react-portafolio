@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.about {
+    background-color: #0d0c4c;
+}
+
+h1 {
+    color: #fff;
+    padding: 50px;
+}
+
+
+.nav {
+    margin-left: 30px
+}
+
+.onClick:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+/*Estilos de el apartado acerca de mi*/
+.aboutBox {
+    background-color: #0d0c4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutText {
+    color: #fff;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Estilos Language box*/
+
+.languagesBox {
+    background-color: #0d0c4c;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.languageIcon {
+    width: 150px;
+    padding: 15px;
+}
+
+.languageAlign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Estilos Skills box*/
+
+.skillsBox {
+    background-color: #0d0c4c;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.skillsProgress {
+    width: 150px;
+}
+
+.skillsAlign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textProgress {
+    color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lenguaje2 {
+    display: none;
+}
+
+.width {
+    width: 75%;
+}
+
+.width2 {
+    width: 85%;
+}
+
+.width3 {
+    width: 60%;
+}
+
+.width4 {
+    width: 85%;
+}
+
+.habilidadesAlign {
+    display: none;
+}
+
+.imagen2 {
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+
+    .textBox {
+        width: 750px;
+    }
+
+    .languagesBox {
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    .imagenAbout{
+        width:40vw;
+    }
+
+    .languageAlign {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .aboutBox {
+        background-color: #0d0c4c;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skillsAlign {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .habilidadesAlign {
+        display: block;
+    }
+
+    .languageAlign {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .languagesBox {
+        grid-template-columns: 150px 150px 150px 150px;
+    }
+
+    .lenguaje1 {
+        display: none;
+    }
+
+    .lenguaje2 {
+        display: block;
+        text-align: center;
+    }
+
+    .imagen1 {
+        display: none;
+    }
+
+    .languageAlign {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

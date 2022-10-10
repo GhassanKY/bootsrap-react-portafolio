@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.color{
+    background-color:#0d0c4c;
+}
+.textNav{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:30px;
+    font-weight: bold;
+}
