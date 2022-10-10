@@ -19,7 +19,6 @@ export const Portfolio = () => {
                 <i onClick={() => setstate(0)} className="fa-solid fa-arrow-left fa-2x atras"></i>
                <Proyects />  
             </div>
-             
 
              : state === 2 ?
              <div>
@@ -27,7 +26,6 @@ export const Portfolio = () => {
                 <ThreeDProyect />
             </div>
                :
-
                 <div className='ProjectBox'>
 
                     <div className='Project'>
