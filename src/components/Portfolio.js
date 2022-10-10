@@ -11,8 +11,6 @@ export const Portfolio = () => {
 
     return (
 
-
-
         <div>
 
             {state === 1 ?
