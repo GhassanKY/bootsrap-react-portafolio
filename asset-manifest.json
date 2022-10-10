@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/repository-name/static/css/main.80455e7c.css",
+    "main.js": "/repository-name/static/js/main.f07d15d7.js",
+    "static/media/Project.svg": "/repository-name/static/media/Project.fc1d24f7a495ddae4545.svg",
+    "static/media/3DProject.svg": "/repository-name/static/media/3DProject.fb85a093b8b67b90aafe.svg",
+    "static/media/About.gif": "/repository-name/static/media/About.0fb8f1637858e3e7bb69.gif",
+    "static/media/texturaLuna.jpg": "/repository-name/static/media/texturaLuna.8f80953b60adac9859cd.jpg",
+    "static/media/Language.gif": "/repository-name/static/media/Language.659333264f5895cdb938.gif",
+    "static/media/Skills.gif": "/repository-name/static/media/Skills.e2878d1ccebb0ce2a667.gif",
+    "static/media/LogoNav.svg": "/repository-name/static/media/LogoNav.a2c87c3c0fb964356d2bff9d78efd057.svg",
+    "index.html": "/repository-name/index.html",
+    "main.80455e7c.css.map": "/repository-name/static/css/main.80455e7c.css.map",
+    "main.f07d15d7.js.map": "/repository-name/static/js/main.f07d15d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80455e7c.css",
+    "static/js/main.f07d15d7.js"
+  ]
+}
